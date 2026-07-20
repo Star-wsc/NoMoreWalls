@@ -1,62 +1,66 @@
 proxies:
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.8MB/s
   network: ws
-  port: 8880
-  server: 45.85.119.30
+  port: 8443
+  server: ad-018.cloud25075.info
+  servername: ad-018.cloud25075.info
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  uuid: 5d3abfa9-bdf5-4334-8383-dcf92df802a5
   ws-opts:
     headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
+      Host: ad-018.cloud25075.info
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|1.9MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 2dgS9vJTywAfGZmlkuzDIIXLUR-E1A-0na8_W--ruUc
+    short-id: '!!str 5be8210215'
+  server: 89.208.113.157
+  servername: parisjetaime.com
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  udp: true
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
+  name: 🇫🇷FR_3|1.5MB/s
   network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_1|2.5MB/s
-  network: ws
   port: '443'
-  server: mehrad.alwaysdata.net
-  servername: mehrad.alwaysdata.net
+  reality-opts:
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+    short-id: '!!str '
+  server: 37.49.230.101
+  servername: fastsync.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 3a762ef8-e4cf-4042-81e2-7cb2db8d4180
-  ws-opts:
-    headers:
-      Host: mehrad.alwaysdata.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /mehcraft
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
   xudp: true
-- cipher: aes-256-gcm
-  name: 🇫🇷FR_2|2.9MB/s
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '20068'
-  server: 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qpon
-  type: ss
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|1.7MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+    short-id: '!!str '
+  server: 37.49.230.102
+  servername: fastsync.xyz
+  tls: true
+  type: vless
   udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  xudp: true
 - name: FR_speednode_0004
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
